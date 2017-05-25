@@ -1,0 +1,47 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2015.08.04.05.00.53;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2015.07.16.23.47.51;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@Author: Bradley Bernard, bmbernar@@ucsc.edu
+$Id$
+
+CS 109 Assignment #4: gdraw
+
+Draws shapes in using the GLUT library.
+
+Usage: grdaw [-@@flags] [filename]
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 8
+a8 1
+$Id: README,v 1.1 2015-07-16 16:39:04-07 - - $
+@

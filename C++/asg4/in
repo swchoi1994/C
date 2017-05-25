@@ -1,0 +1,17 @@
+define brad ellipse 300.0 300.0
+draw red brad 250.0 250.0
+define dad circle 150.0
+draw blue dad 550.0 100.0
+define test polygon 100.0 100.0 150.0 100.0 150.0 150.0 100.0 150.0 
+draw orange test 50.0 50.0
+define rec rectangle 20.0 100.0
+draw yellow rec 500.0 100.0
+define sq square 25.0
+draw green sq 600.0 100.0
+define tri triangle 0 0 50.0 0 25.0 100.0
+draw purple tri 300.0 300.0
+define dia diamond 100 100
+draw gray dia 400 400
+define equi equilateral 10.0
+border red 500
+moveby 20

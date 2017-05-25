@@ -1,0 +1,8 @@
+Author: Bradley Bernard, bmbernar@ucsc.edu
+$Id: README,v 1.2 2015-08-03 22:00:53-07 - - $
+
+CS 109 Assignment #4: gdraw
+
+Draws shapes in using the GLUT library.
+
+Usage: grdaw [-@flags] [filename]

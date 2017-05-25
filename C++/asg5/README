@@ -1,0 +1,9 @@
+Author: Bradley Bernard, bmbernar@ucsc.edu
+$Id: README,v 1.2 2015-08-03 22:00:53-07 - - $
+
+CS 109 Assignment #5: cix, cixd
+
+Client/server application using sockets.
+
+Usage: cixd [port]
+Usage: cix [host] [port]
