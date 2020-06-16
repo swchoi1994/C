@@ -8,10 +8,10 @@ Please have a computer that can compile C/C++. You can use your terminal and typ
 
 ### Prerequisites
 
-In order to run those programs I wrote, please have executable programs on your computer and then type '(dot)backslash' and then an executable program name. Example:   ./main 
+In order to run those programs I wrote, please have executable programs on your computer and then type '(dot)backslash' and then an executable program name. Example:   
 
 ```
-
+./main 
 ```
 
 ## Running the tests
