@@ -52,6 +52,7 @@ for some reason.
 int main() {
     int size;
     char *text = NULL;
+    char *str;
 
     printf("Enter limit of the text: \n");
     scanf("%d", &size);
@@ -68,5 +69,33 @@ int main() {
 
     free(text);
     text = NULL;
+    
+    // Creates 15 bytes 
+    str = (char *) malloc(15);
+    strcpy(str, "jason");
+    printf("String = %s, Address = %u\n", str, str);
+
+    // Re allocates extra 10 bytes; in total, 25 bytes
+    str = (char *) realloc(str, 25);
+    strcat(str, ".com");
+    printf("String = %s, Address =%u\n", str, str);
+
+    free(str);
+
     return 0;
 }
+
+/*
+avoid allocating lots of small amounts of memory
+- allocating memory on the heap carries some overhead with it 
+- allocating many small blocks of memory will carry much more
+overhead than allocating fewer larger blocks.
+
+only hang on to the memory as long as you need it 
+- as soon as you are finished with a block of memory on the heap, 
+release the memory
+
+always ensure that you provide for releasing memory that you have allocated
+-deicde where in your code you will release the memory when you write
+the code that allocates it. 
+*/
