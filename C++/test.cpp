@@ -5,9 +5,10 @@ This code determines which combination of algeraic eqaution gives the result of 
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
-int main() 
-{
+
+int main() {
 	for (int i = 1; i <= 9; i++) {
 	    if (1 + 2 + i + 9 + 9 == 29) cout << "1 + 2 + " << i << " + 9 + 9 = 29" << endl;
 	    if (1 + 2 + i + 9 * 9 == 29) cout << "1 + 2 + " << i << " + 9 * 9 = 29" << endl;
@@ -22,7 +23,6 @@ int main()
 	    if (1 * 2 + i * 9 + 9 == 29) cout << "1 * 2 + " << i << " * 9 + 9 = 29" << endl;
 	    if (1 * 2 + i * 9 * 9 == 29) cout << "1 * 2 + " << i << " * 9 * 9 = 29" << endl;
 	    if (1 * 2 + i * 9 * 9 == 29) cout << "1 * 2 + " << i << " * 9 * 9 = 29" << endl;
-
-}
-return 0;
+	}
+	return 0;
 }
